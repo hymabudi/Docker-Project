@@ -1,0 +1,108 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+}
+
+body{
+    color: white;
+    font-family: caveat,arial;
+    background-image: url(./images/rock-paper-scissors.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.436);
+    backdrop-filter: blur(10px);
+    width: 500px;
+    box-shadow: 2px 2px 50px black;
+    border-radius: 30px;
+}
+.btns{
+    display: flex;
+    margin-bottom: 0;
+}
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.move-icon{
+    height: 50px;
+}
+.move-button{
+    background-color: transparent;
+    border: 2px solid white;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+
+}
+.move-button:hover{
+    background-color: rgba(250, 248, 248, 0.217);
+}
+.moves{
+    font-size: 30px;
+
+}
+.result{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.score{
+    margin-top: 40px;
+    font-size: 30px;
+}
+.reset-score-btn,
+.auto-play-btn{
+    background-color:black;
+    color: white;
+    border: none;
+    font-weight: 700;
+    padding: 10px;
+    font-size: 8px 15px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 10px;
+   /*  transition: all 1s ease;
+    position: relative;
+    overflow: hidden; */
+    /* z-index: 1; */
+    
+
+}
+.reset-score-btn:hover{
+    background-color: rgba(0, 0, 0, 0.482);
+}
+/* .reset-score-btn::before{
+    background-color: aqua;
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 0%;
+    height: 100%;
+    transition: all 1s ease;
+    
+}
+.reset-score-btn:hover::before{
+    width: 100%;
+    color: black;
+} */
