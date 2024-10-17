@@ -1,2 +1,3 @@
 # Rock-Paper-Scissor
-## Rock - Budi
+## Rock-Paper-Scissor
+### Rock-Paper-Scissor
